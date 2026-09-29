@@ -1,0 +1,48 @@
+GRAVADOR DE TELA DO TABLET - COMO USAR
+========================================
+
+Isso NAO instala nada no tablet nem no PC. Tudo que e necessario
+ja esta dentro desta pasta.
+
+PASSO A PASSO
+--------------
+
+1) No TABLET, ative a Depuracao USB (so precisa fazer isso uma vez):
+   - Va em Configuracoes > Sobre o tablet (ou "Sobre o dispositivo")
+   - Toque 7 vezes seguidas em "Numero da versao" (ou "Build number")
+     ate aparecer a mensagem "Voce agora e um desenvolvedor"
+   - Volte em Configuracoes > Opcoes do desenvolvedor
+   - Ative "Depuracao USB" (USB Debugging)
+
+2) Conecte o tablet no computador com um cabo USB.
+
+3) Na tela do TABLET vai aparecer uma pergunta pedindo permissao
+   para depuracao USB. Marque "Sempre permitir deste computador"
+   e toque em OK/Permitir.
+
+4) De um duplo clique no arquivo "GravadorTablet.exe" nesta pasta.
+   Ele fica rodando discretamente (um icone aparece na bandeja,
+   perto do relogio do Windows).
+
+5) Para INICIAR a gravacao, pressione ao mesmo tempo:
+       Ctrl + Alt + G
+   (vai tocar dois bipes e aparecer um aviso confirmando)
+
+6) Para PARAR a gravacao, pressione ao mesmo tempo:
+       Ctrl + Alt + S
+   (vai tocar um bipe e aparecer um aviso confirmando)
+
+7) O video (.mp4) fica salvo automaticamente em:
+   Area de Trabalho > GravacoesTablet
+
+IMPORTANTE
+----------
+- Nao mova o "GravadorTablet.exe" para fora desta pasta, ele precisa
+  dos arquivos que estao na pasta "scrcpy" ao lado dele.
+- Se o Windows Defender/SmartScreen avisar sobre arquivo desconhecido,
+  clique em "Mais informacoes" > "Executar mesmo assim". Isso acontece
+  porque o arquivo nao tem assinatura digital, mas e seguro (e so um
+  atalho de teclado que chama o scrcpy, ferramenta oficial de mirror/
+  gravacao de tela Android, de codigo aberto).
+- Os atalhos (Ctrl+Alt+G / Ctrl+Alt+S) so funcionam enquanto o
+  GravadorTablet.exe estiver aberto (rodando na bandeja do sistema).
